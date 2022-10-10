@@ -1,0 +1,29 @@
+.layout-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+  .side {
+    width: 0;
+  }
+  .content {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width:400px) {
+
+  .layout-container {
+
+  
+    .side{
+      width: 20%;
+    }
+    .content{
+      width:100%;
+    }
+  }
+
+
+  
+}

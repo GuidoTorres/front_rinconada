@@ -1,0 +1,34 @@
+//base
+@use "./scss/reset";
+
+//login
+@use "./components/login/style/login";
+
+//sidebar
+
+@use "./components/sidebar/style/sidebar";
+
+//header
+@use "./components/header/style/header";
+
+//administracion
+@use "./components/administracion/style/opciones";
+@use "./components/administracion/style/busqueda";
+@use "./components/administracion/style/tabla";
+@use "./components/administracion/style/rol";
+@use "./components/administracion/style/mUsuario";
+
+
+//personal
+@use "./components/personal/styles/modal";
+
+//pages
+//administracion
+@use "./pages/styles/administracion";
+
+//personal
+@use "./pages/styles/personal";
+
+//layout
+
+@use "./pages/styles/layout";

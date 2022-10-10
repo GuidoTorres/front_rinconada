@@ -1,0 +1,13 @@
+.admin-container {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+
+  .admin-content {
+    width: 100%;
+  }
+  .selected {
+    background-color: black;
+    color: white;
+  }
+}

@@ -1,0 +1,14 @@
+.personal-container {
+  display: flex;
+  height: 100%;
+  overflow-y: hidden;
+
+  .personal-content {
+    width: 100%;
+
+    .modal {
+      padding: 30px;
+      width: 100%;
+    }
+  }
+}
